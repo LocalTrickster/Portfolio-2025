@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <style>
+        .Centered {
+            margin-right: auto;
+            margin-left: auto;
+
+        }
+        .TvScreen {
+            animation-name: TvFlicker;
+            animation-iteration-count: infinite;
+            animation-duration: 20s;
+            margin: left;
+            background-color: green;
+            background-size: contain;
+            width: 10vw;
+            height: 10vh;
+            
+            
+        }
+        .TvGroup{
+            position: absolute;
+            display: block;
+            -webkit-mask-image: url(/Tv\ goop\ 2.png);
+            
+
+        }
+
+        @keyframes TvFlicker {
+            0% {background-image: url(/giphy.gif);}
+           
+            100% {background-image: url(/Cut\ off\ 2.png); }
+            
+        } 
+        .TV1 {
+            float: right;
+        }
+        .TV2 {
+            float: left;
+        }
+        .TableItem {
+            display: flex;
+            margin: 1% 1% 1% 1%;
+            width: 20%;
+            height: 20%;
+            background-color: brown;
+            flex-grow: 0.25;
+            align-items: center; 
+            justify-content:center;
+        }
+        .Table {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 1% 1% 1% 1%;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            background-image: url(/wood-2045379_640.jpg);
+            background-size: 80vh;
+            width: 30vw;
+            height: 100vh;
+            min-height: 926px;
+            min-width: 500px;
+           
+            
+        }
+        .Right {
+            display: block;
+           float: right;
+           position: relative;
+           position-anchor: right;
+
+
+        }
+
+        body {
+            width: 98vw;
+            height: 98vh;
+            margin: 1vh 1vw;
+
+         
+        }
+        div {
+            width: 50px;
+            height: 75px;
+            background-color: grey;
+            position: relative;
+            
+        }
+    </style> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow</title>
+</head>
+<body>
+    
+    <div class="TV1"> </div>
+    <div class="TV2"> </div>
+    <div class="TvScreen Centered">
+        <svg> <mask class="Tvgroup"> <image src="/Tv goop 2.png"></image> </mask>
+        </svg>
+    </div>
+    <div class="Table">
+         <div class="TableItem"></div>
+         <div class="TableItem"></div>
+         <div class="TableItem"></div>
+         <div class="TableItem"></div>
+         <div class="TableItem"></div> 
+         <div class="TableItem"></div>
+         <div class="TableItem"></div>
+         <div class="TableItem"></div>
+         <div class="TableItem"></div>
+         <div class="TableItem"></div>
+         <div class="TableItem"></div>
+         <div class="TableItem"></div>
+         <div class="TableItem"></div>
+        </div>
+        <Div style="background-color: black; width: 99.1vw; height: 1vh; left: -1vw;"></Div> 
+        <p>meow Meow
+            Hi rose < 3
+            hello world
+        
+        </p>
+</body>
+</html>
