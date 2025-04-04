@@ -91,13 +91,13 @@ a {
 .Centered {
     margin-right: auto;
     margin-left: auto;
-    width: 9vw;
-    height: 9vh;
-    background-size: cover;
+    width: 9.9vw;
+    height: 14vh;
     background-image: url(/Recursos/TvCenter.png);
     display: flex;
     justify-content: center;
     align-items: center;  
+    background-size: cover;
 
 }
 
@@ -108,12 +108,13 @@ a {
     margin: left;
     background-color: green;
     background-size: contain;
-    width: 9vw;
-    height: 9vh;
+    width: 8.9vw;
+    height: 7.7vh;
     margin-left: auto; 
-     margin-right: auto;
-     background-size: cover;  
-     background-position: center; 
+    margin-right: auto;
+    margin-bottom: -40px;
+    background-size: cover;  
+    background-position: center; 
     
     
 }
