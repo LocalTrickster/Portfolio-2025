@@ -18,7 +18,7 @@ html {
   transform: translate(-50%, -50%); 
   width: 576px;       
   height: 200px;           
-  background-image: url(/Recursos/giphy.gif);
+  background-image: url(../Recursos/giphy.gif);
   background-size: cover;  
   background-position: center; 
   border-radius: 10px;      
@@ -48,7 +48,7 @@ a {
     text-shadow: -1px -1px white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 .Static {
-    background-image: url(/Recursos/giphy.gif);
+    background-image: url(../Recursos/giphy.gif);
     display: block;
     color: white;
     background-size: cover;
@@ -62,7 +62,7 @@ a {
     margin: 1% 1% 1% 1%;
     left: -0.99vw;
     margin-top: 0vh;
-    background-image: url(/Recursos/a-0005.jpg);
+    background-image: url(../Recursos/a-0005.jpg);
     background-size: contain
 }
 
@@ -93,7 +93,7 @@ a {
     margin-left: auto;
     width: 9.9vw;
     height: 14vh;
-    background-image: url(/Recursos/TvCenter.png);
+    background-image: url(../Recursos/TvCenter.png);
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -121,14 +121,14 @@ a {
 
 
 @keyframes TvFlicker {
-    0% {background-image: url(/Recursos/giphy.gif);}
+    0% {background-image: url(../Recursos/giphy.gif);}
    
-    100% {background-image: url(/Recursos/Cut\ off\ 2.png); }
+    100% {background-image: url(../Recursos/Cut\ off\ 2.png); }
     
     
 } 
 .TV1 {
-    background-image: url(/Recursos/TvSide.png);
+    background-image: url(../Recursos/TvSide.png);
     position:initial;
     float: right;
     width: 100px;
@@ -136,7 +136,7 @@ a {
     background-size: cover;
 }
 .TV2 {
-    background-image: url(/Recursos/TvSide.png);
+    background-image: url(../Recursos/TvSide.png);
     display: block;
     float: left;
     width: 100px;
@@ -162,7 +162,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    background-image: url(/Recursos/wood-2045379_640.jpg);
+    background-image: url(../Recursos/wood-2045379_640.jpg);
     background-size: 150vh;
     width: 30vw;
     height: 3vh;
