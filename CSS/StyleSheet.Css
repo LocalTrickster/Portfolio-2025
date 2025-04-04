@@ -1,0 +1,181 @@
+html {
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+        padding: 0%;
+        
+}
+.easteregg {
+    font-size: xx-small;
+    color: black;
+}
+a {
+  width: fit-content;
+  height: fit-content;
+}
+.Logo {
+    contain: content;
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    float: left;
+   
+    
+    
+}
+.AlignHorizontally {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row;
+    align-items: center;
+}
+.MenuText {
+    
+    text-shadow: -1px -1px white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+.Static {
+    background-image: url(/Recursos/giphy.gif);
+    display: block;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.MainMenuDiv {
+    width: 99.6vw; 
+    height: 100vh;
+    margin: 1% 1% 1% 1%;
+    left: -0.99vw;
+    margin-top: 0vh;
+    background-image: url(/Recursos/a-0005.jpg);
+    background-size: contain
+}
+
+.ProyectoBloque {
+    position: relative;
+    background-color: black;
+    outline-color: white;
+    outline-style: solid;
+    border: 2%;
+    text-align: center;
+    width: 10%;
+    height: 15%;
+    margin: 5% 5% 5% 5%;
+    float: center;
+    color: white;
+    font-size: 900%;
+}
+.Proyectos {
+    color: white;
+    font-size: 400%;
+    text-decoration: underline;      
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+.Centered {
+    margin-right: auto;
+    margin-left: auto;
+    width: 9vw;
+    height: 9vh;
+    background-size: cover;
+    background-image: url(/Recursos/TvCenter.png);
+
+}
+
+.TvScreen {
+    animation-name: TvFlicker;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    margin: left;
+    background-color: green;
+    background-size: contain;
+    width: 9vw;
+    height: 9vh;
+    
+    
+    
+}
+.TvGroup{
+    position: absolute;
+    display: block;
+    -webkit-mask-image: url(/Tv\ goop\ 2.png);
+    
+
+}
+
+@keyframes TvFlicker {
+    0% {background-image: url(/Recursos/giphy.gif);}
+   
+    100% {background-image: url(/Recursos/Cut\ off\ 2.png); }
+    
+    
+} 
+.TV1 {
+    background-image: url(/Recursos/TvSide.png);
+    position:initial;
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+.TV2 {
+    background-image: url(/Recursos/TvSide.png);
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    transform: scaleX(-1);
+    background-size: cover;
+}
+.TableItem {
+    display: flex;
+    margin: 1% 1% 1% 1%;
+    width: 20%;
+    height: 20%;
+    background-color: brown;
+    flex-grow: 0.25;
+    align-items: center; 
+    justify-content:center;
+   
+}
+.Table {
+    display: block;
+    flex-wrap: wrap;
+    margin: 1% 1% 1% 1%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: url(/Recursos/wood-2045379_640.jpg);
+    background-size: 150vh;
+    width: 30vw;
+    height: 3vh;
+    min-height: 926px;
+    min-width: 500px;
+    
+}
+.Right {
+    display: block;
+   float: right;
+   position: relative;
+   position-anchor: right;
+
+
+}
+
+body {
+    width: 98vw;
+    height: 98vh;
+    padding: 0%;
+    margin: 0%;
+    top: -19px;
+  position: absolute;
+
+ 
+}
+div {
+    width: 50px;
+    height: 75px;
+    position: relative;
+    
+}
