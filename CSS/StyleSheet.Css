@@ -4,6 +4,26 @@ html {
         padding: 0%;
         
 }
+.image-container { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    display: flex;
+  justify-content: center; 
+  align-items: center;     
+  gap: 20px;               
+  position: absolute;
+  top: 50%;                 
+  left: 50%;                
+  transform: translate(-50%, -50%); 
+  width: 576px;       
+  height: 200px;           
+  background-image: url(/Recursos/giphy.gif);
+  background-size: cover;  
+  background-position: center; 
+  border-radius: 10px;      
+ 
+} 
 .easteregg {
     font-size: xx-small;
     color: black;
@@ -18,15 +38,10 @@ a {
     width: 100px;
     background-size: contain;
     float: left;
+    inline-size: auto;
    
     
     
-}
-.AlignHorizontally {
-    display: flex;
-    justify-content: flex-start;
-    flex-flow: row;
-    align-items: center;
 }
 .MenuText {
     
@@ -80,6 +95,9 @@ a {
     height: 9vh;
     background-size: cover;
     background-image: url(/Recursos/TvCenter.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 
 }
 
@@ -92,17 +110,14 @@ a {
     background-size: contain;
     width: 9vw;
     height: 9vh;
-    
+    margin-left: auto; 
+     margin-right: auto;
+     background-size: cover;  
+     background-position: center; 
     
     
 }
-.TvGroup{
-    position: absolute;
-    display: block;
-    -webkit-mask-image: url(/Tv\ goop\ 2.png);
-    
 
-}
 
 @keyframes TvFlicker {
     0% {background-image: url(/Recursos/giphy.gif);}
